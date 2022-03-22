@@ -1,0 +1,7 @@
+{
+    "bulma-css-class-completion.HTMLLanguages": [
+        "html",
+        "vue",
+        "svelte",
+    ]
+}
