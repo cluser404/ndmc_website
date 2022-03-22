@@ -13,10 +13,10 @@
 logo_url={"/content/ndmc_logo.png"} 
 company_name={"Notore Dame Math Club"}
 cta_text={"JOIN NDMC"}
-cta_link={"https://facebook.com/page/ndmc"}
+cta_link={"https://www.facebook.com/groups/368006847807548"}
 social_links={[
-    {iconName: "paper-plane", link: "https://telegram.com/"},
-    {iconName: "logo-facebook", link: "https://facebook.com/"},
-    {iconName: "logo-discord", link: "https://discord.com/"},
+    {iconName: "paper-plane", link: " t.me/ndmc_official"},
+    {iconName: "logo-facebook", link: "https://www.facebook.com/official.ndmc"},
+    {iconName: "logo-discord", link: "https://discord.gg/8CEV3T9TCp"},
     ]}
 />
