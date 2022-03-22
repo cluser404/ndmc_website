@@ -13,7 +13,7 @@
         width: 100vw;
         height: 95vh;
         background-color: #000000;
-        background: url("/content/ndmc_banner.png");
+        background: url("/content/ndmc_banner_optimized.png");
         background-size: cover;
     }
 
