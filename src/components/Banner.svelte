@@ -12,6 +12,7 @@
         position: relative;
         width: 100vw;
         height: 95vh;
+        background-color: #000000;
         background: url("/content/ndmc_banner.png");
         background-size: cover;
     }
@@ -101,7 +102,7 @@
 
 </style>
 
-<div class="banner">
+<div class="banner" style="background-color: black;">
     <div class="glass-panel" bind:clientWidth={glass_panel_width}>
         <div class="center-box">
             <div>
