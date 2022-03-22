@@ -1,3 +1,9 @@
+
+<script context="module">
+    //preredering is enabled for the Homepage
+    export const prerender = true;
+</script>
+
 <script>
     import Banner from "../components/Banner.svelte";
 </script>
