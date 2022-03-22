@@ -11,7 +11,7 @@
 
 <Banner
 logo_url={"/content/ndmc_logo.png"} 
-company_name={"Notore Dame Math Club"}
+company_name={"Notre Dame Math Club"}
 cta_text={"JOIN NDMC"}
 cta_link={"https://www.facebook.com/official.ndmc/posts/4855810711183278"}
 social_links={[
