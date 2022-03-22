@@ -1,4 +1,4 @@
-# Notore Dame Math Club Website
+# Notre Dame Math Club Website
 ## Setting up the project
 
 ### Clone the project
