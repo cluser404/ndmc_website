@@ -13,7 +13,7 @@
         width: 100vw;
         height: 95vh;
         background-color: #000000;
-        background: url("/content/ndmc_banner.png");
+        background: url("/content/ndmc_banner_optimized.png");
         background-size: cover;
     }
 
@@ -114,7 +114,7 @@
             <div class="pt-3">
                 <a class="button join-button-text is-medium is-white has-text-weight-bold is-outlined" href={cta_link}>
                     <span class="celebration">
-                        <img class="celebration-gif" draggable="false" src="/content/celebration.gif" alt="">
+                        <img class="celebration-gif" draggable="false" src="/content/celebration.gif" alt="join ndmc">
                     </span>
                     <span>{cta_text}</span>
                 </a>
