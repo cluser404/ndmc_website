@@ -26,7 +26,8 @@
 		"node-sass": "^7.0.1",
 		"prettier": "^2.5.1",
 		"prettier-plugin-svelte": "^2.5.0",
-		"svelte": "^3.44.0"
+		"svelte": "^3.44.0",
+		"svelte-sitemap": "^2.3.2"
 	},
 	"type": "module"
 }
