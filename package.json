@@ -1,9 +1,12 @@
 {
 	"name": "ndmcweb",
 	"version": "0.0.1",
+	"config": {
+		"FQDN": "https://ndmcweb.github.io"
+	},
 	"scripts": {
 		"dev": "svelte-kit dev",
-		"build": "svelte-kit build",
+		"default-build": "svelte-kit build",
 		"package": "svelte-kit package",
 		"preview": "svelte-kit preview",
 		"prepare": "svelte-kit sync",
@@ -12,7 +15,9 @@
 		"format": "prettier --ignore-path .gitignore --write --plugin-search-dir=. .",
 		"css-build": "npx node-sass --omit-source-map-url src/styles/framework.sass static/styles/framework.css --output-style compressed",
 		"css-watch": "npm run css-build -- --watch",
-		"start": "npm run css-watch"
+		"start": "npm run css-watch",
+		"gen-sitemap": "npx svelte-sitemap --domain $npm_package_config_FQDN",
+		"build": "npm run default-build && npm run gen-sitemap"
 	},
 	"devDependencies": {
 		"@playwright/test": "^1.20.0",
