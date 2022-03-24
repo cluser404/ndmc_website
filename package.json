@@ -12,7 +12,7 @@
 		"format": "prettier --ignore-path .gitignore --write --plugin-search-dir=. .",
 		"css-build": "npx node-sass --omit-source-map-url src/styles/framework.sass static/styles/framework.css --output-style compressed",
 		"css-watch": "npm run css-build -- --watch",
-		"deploy": "node scripts/deploy.js https://github.com/cluser404/cluser404.github.io.git"
+		"deploy": "node scripts/deploy.js https://github.com/ndmcweb/ndmcweb.github.io.git"
 	},
 	"devDependencies": {
 		"@playwright/test": "^1.20.0",
@@ -23,6 +23,7 @@
 		"eslint": "^7.32.0",
 		"eslint-config-prettier": "^8.3.0",
 		"eslint-plugin-svelte3": "^3.2.1",
+		"fs-extra": "^10.0.1",
 		"node-sass": "^7.0.1",
 		"prettier": "^2.5.1",
 		"prettier-plugin-svelte": "^2.5.0",
