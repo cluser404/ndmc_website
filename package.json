@@ -11,8 +11,7 @@
 		"lint": "prettier --ignore-path .gitignore --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
 		"format": "prettier --ignore-path .gitignore --write --plugin-search-dir=. .",
 		"css-build": "npx node-sass --omit-source-map-url src/styles/framework.sass static/styles/framework.css --output-style compressed",
-		"css-watch": "npm run css-build -- --watch",
-		"start": "npm run css-watch"
+		"css-watch": "npm run css-build -- --watch"
 	},
 	"devDependencies": {
 		"@playwright/test": "^1.20.0",
