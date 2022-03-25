@@ -1,5 +1,7 @@
 <script>
+    import asset_celebration from "$lib/assets/celebration.gif";
     export let logo_url = null;
+    export let banner_url = null;
     export let company_name = "Company";
     export let cta_text = "JOIN NOW";
     export let cta_link = "/"
@@ -13,7 +15,7 @@
         width: 100vw;
         height: 95vh;
         background-color: #000000;
-        background: url("/content/ndmc_banner_optimized.png");
+        /*background: url("/content/ndmc_banner_optimized.png");*/
         background-size: cover;
     }
 
@@ -102,7 +104,7 @@
 
 </style>
 
-<div class="banner" style="background-color: black;">
+<div class="banner" style="background: black url('{banner_url}') no-repeat center center; background-size: cover">
     <div class="glass-panel" bind:clientWidth={glass_panel_width}>
         <div class="center-box">
             <div>
@@ -114,7 +116,7 @@
             <div class="pt-3">
                 <a class="button join-button-text is-medium is-white has-text-weight-bold is-outlined" href={cta_link}>
                     <span class="celebration">
-                        <img class="celebration-gif" draggable="false" src="/content/celebration.gif" alt="join ndmc">
+                        <img class="celebration-gif" draggable="false" src="{asset_celebration}" alt="join ndmc">
                     </span>
                     <span>{cta_text}</span>
                 </a>

@@ -18,14 +18,15 @@
     <meta property="og:description" content="NDMC is the best Math Club in Bangladesh. Notre Dame welcomed the newest member to its plethora of clubs on the 14th of March, 2017: The Notre Dame Math Club(NDMC).">
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="https://ndmcweb.github.io/" />
-	<meta property="og:image" content="https://ndmcweb.github.io/social_cover.png" />
-    <meta property="og:image:url"  content="https://ndmcweb.github.io/social_cover.png"/>
-    <meta property="twitter:image" content="https://ndmcweb.github.io/social_cover.png"/>
+	<meta property="og:image" content="https://ndmcweb.github.io/content/social_cover.png" />
+    <meta property="og:image:url"  content="https://ndmcweb.github.io/content/social_cover.png"/>
+    <meta property="twitter:image" content="https://ndmcweb.github.io/content/social_cover.png"/>
     <meta name="twitter:card" content="summary_large_image">
 </svelte:head>
 
 <Banner
-logo_url={"/content/ndmc_logo.png"} 
+logo_url={"/content/ndmc_logo.png"}
+banner_url={"/content/ndmc_banner_optimized.png"}
 company_name={"Notre Dame Math Club"}
 cta_text={"JOIN NDMC"}
 cta_link={"https://www.facebook.com/official.ndmc/posts/4855810711183278"}
