@@ -14,7 +14,7 @@
     <!--meta-->
     <title>Notre Dame Math Club - Official Website</title>
     <!--opengraph meta-->
-	<meta property="og:title" content="Notre Dame Math Club Homepage" />
+	<meta property="og:title" content="Notre Dame Math Club Official Website"/>
     <meta property="og:description" content="NDMC is the best Math Club in Bangladesh. Notre Dame welcomed the newest member to its plethora of clubs on the 14th of March, 2017: The Notre Dame Math Club(NDMC).">
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="https://ndmcweb.github.io/" />
