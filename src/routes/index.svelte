@@ -5,7 +5,7 @@
 </script>
 
 <script>
-    import Banner from "../components/Banner.svelte";
+    import Banner from "$lib/components/Banner.svelte";
 </script>
 
 <svelte:head>
