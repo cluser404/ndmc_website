@@ -6,6 +6,7 @@
 
 <script>
     import Banner from "$lib/components/Banner.svelte";
+    import Story from "$lib/components/Story.svelte";
 </script>
 
 <svelte:head>
@@ -35,3 +36,17 @@ social_links={[
     {iconName: "logo-facebook", link: "https://www.facebook.com/official.ndmc"},
     ]}
 />
+
+<div class="container mt-6">
+    <Story title={"Notre Dame Math Club"} subtitle={"story of a legend among the math crowd"}>
+        <svelte:fragment slot="content">
+            <p>
+                Notre Dame welcomed the newest member to its plethora of
+                clubs on the <b>14th of March, 2017</b>: The Notre Dame Math Club (NDMC).
+            </p>
+            <p>
+                
+            </p>
+        </svelte:fragment>
+    </Story>
+</div>
